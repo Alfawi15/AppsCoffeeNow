@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "84626958346",
+    "project_id": "coffe-now",
+    "storage_bucket": "coffe-now.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84626958346:android:da2409040bb3a4a3ea57f3",
+        "android_client_info": {
+          "package_name": "com.example.appscoffeenow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84626958346-76dm2ngs4t5gafse6b57rh7mjkrruejf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXPevrIIp93_j_RxJ0AGXn496wzV0epOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84626958346-76dm2ngs4t5gafse6b57rh7mjkrruejf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84626958346:android:9ee2f5d464235846ea57f3",
+        "android_client_info": {
+          "package_name": "com.example.appspemesanankopi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84626958346-76dm2ngs4t5gafse6b57rh7mjkrruejf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXPevrIIp93_j_RxJ0AGXn496wzV0epOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84626958346-76dm2ngs4t5gafse6b57rh7mjkrruejf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

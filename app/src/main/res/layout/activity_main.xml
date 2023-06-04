@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnlgn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="238dp"
+        android:backgroundTint="#734C36"
+        android:ems="20"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/coffenow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="247dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="444dp"
+        android:fontFamily="@font/creguler"
+        android:text="Coffe Now!"
+        android:textSize="33dp" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="318dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="371dp"
+        android:ems="20"
+        android:hint="Email"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="369dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="320dp"
+        android:ems="20"
+        android:hint="Password"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="521dp"
+        android:src="@drawable/coffee" />
+
+
+</RelativeLayout>
