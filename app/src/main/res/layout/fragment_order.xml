@@ -1,14 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/order"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Order">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/imagekopisusu"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kopisusu" />
+
+
+    <TextView
+        android:id="@+id/kopisusu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@+id/imagekopisusu"
+        android:text="Kopi Susu"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/desckopsu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kopisusu"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@+id/imagekopisusu"
+        android:text="Expresso, dan susu steamed"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/prckopsu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desckopsu"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@+id/imagekopisusu"
+        android:text="Price"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/americano"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/kopisusu"
+        android:layout_marginTop="143dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/americanoice" />
+
+    <TextView
+        android:id="@+id/americanoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginBottom="549dp"
+        android:layout_toRightOf="@+id/americano"
+        android:text="Americano"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descamericano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kopisusu"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="163dp"
+        android:layout_marginBottom="533dp"
+        android:layout_toRightOf="@+id/americano"
+        android:text="Expresso, dan air mineral"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:id="@+id/prcamericano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desckopsu"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="164dp"
+        android:layout_toRightOf="@+id/imagekopisusu"
+        android:text="Price"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imagecaramel"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/americano"
+        android:layout_marginTop="44dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/caramel" />
+
+
+    <TextView
+        android:id="@+id/caramel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginBottom="385dp"
+        android:layout_toRightOf="@+id/imagecaramel"
+        android:text="Caramel Macchiato"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/desccaramel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kopisusu"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="328dp"
+        android:layout_toRightOf="@+id/imagecaramel"
+        android:text="Expresso, susu steamed dan Caramel"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/prccaramel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desccaramel"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="1dp"
+        android:layout_toRightOf="@+id/imagekopisusu"
+        android:text="Price"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
