@@ -36,7 +36,7 @@ void data(){
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-      datadummy();data();
+//      datadummy();data();
         return inflater.inflate(R.layout.fragment_order, container, false);
     }
 }
